@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VacciCheck - Accurate Titer Testing for Dogs & Cats | Biogal</title>
+    <meta name="description" content="VacciCheck provides veterinarians with accurate, in-clinic titer testing for dogs and cats. Reduce unnecessary vaccinations and improve pet health with our ELISA-based test.">
+    <meta name="keywords" content="titer testing, dog vaccination, cat vaccination, veterinary diagnostics, vaccine titer test, in-clinic testing, pet immunity check, VacciCheck, Biogal, veterinary tools">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f6fad 0%, #2c4a7a 100%);
+        }
+        .benefit-card {
+            transition: all 0.3s ease;
+        }
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(5px);
+        }
+        .cta-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(79, 111, 173, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(79, 111, 173, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(79, 111, 173, 0); }
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://www.biogal.com/wp-content/uploads/2021/03/Biogal-Logo-2021.png" alt="Biogal Logo" class="h-12">
+                <span class="ml-4 text-xl font-bold text-blue-800">VacciCheck</span>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#benefits" class="text-blue-800 hover:text-blue-600 font-medium">Benefits</a>
+                <a href="#how-it-works" class="text-blue-800 hover:text-blue-600 font-medium">How It Works</a>
+                <a href="#testimonials" class="text-blue-800 hover:text-blue-600 font-medium">Testimonials</a>
+                <a href="#faq" class="text-blue-800 hover:text-blue-600 font-medium">FAQ</a>
+            </nav>
+            <button class="md:hidden text-blue-800">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Revolutionize Your Clinic's Vaccination Protocol</h1>
+                <p class="text-xl mb-8">VacciCheck provides accurate, in-clinic titer testing to determine vaccine immunity in dogs and cats—helping you make evidence-based vaccination decisions.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-white text-blue-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300 text-center cta-pulse">Request a Demo</a>
+                    <a href="#how-it-works" class="border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-800 transition duration-300 text-center">Learn More</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://www.biogal.com/wp-content/uploads/2021/03/Vaccicheck-Box-Open-2021.png" alt="VacciCheck Kit" class="rounded-lg shadow-xl max-w-md w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <div class="bg-gray-50 py-6">
+        <div class="container mx-auto px-4">
+            <p class="text-center text-gray-500 mb-4">Trusted by veterinary professionals worldwide</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <img src="https://via.placeholder.com/120x60?text=AAHA" alt="AAHA" class="h-10 opacity-70">
+                <img src="https://via.placeholder.com/120x60?text=WSAVA" alt="WSAVA" class="h-10 opacity-70">
+                <img src="https://via.placeholder.com/120x60?text=AVMA" alt="AVMA" class="h-10 opacity-70">
+                <img src="https://via.placeholder.com/120x60?text=IVD" alt="IVD" class="h-10 opacity-70">
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">Why Veterinarians Choose VacciCheck</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="benefit-card bg-gray-50 p-8 rounded-xl shadow-md">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-clinic-medical text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">In-Clinic Results</h3>
+                    <p class="text-gray-600">Get accurate titer results in just 30 minutes without sending samples to an external lab. Streamline your workflow and provide immediate answers to pet owners.</p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="benefit-card bg-gray-50 p-8 rounded-xl shadow-md">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-syringe text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Reduce Over-Vaccination</h3>
+                    <p class="text-gray-600">Eliminate unnecessary vaccinations by testing for existing immunity. Follow WSAVA guidelines and provide personalized vaccination plans for each patient.</p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="benefit-card bg-gray-50 p-8 rounded-xl shadow-md">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-chart-line text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Increase Revenue</h3>
+                    <p class="text-gray-600">Add a valuable service to your practice with high client demand. Titer testing can generate $150+ per test with excellent profit margins.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">Simple 3-Step Testing Process</h2>
+            <div class="flex flex-col md:flex-row items-center mb-12">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h3 class="text-2xl font-bold mb-4">ELISA-Based Technology</h3>
+                    <p class="text-gray-600 mb-4">VacciCheck uses advanced ELISA technology to measure antibody levels against core vaccines (Canine Distemper, Adenovirus, Parvovirus for dogs; Panleukopenia for cats).</p>
+                    <p class="text-gray-600">The test requires just a few drops of serum or plasma, with clear colorimetric results that are easy to interpret.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://www.biogal.com/wp-content/uploads/2021/03/Vaccicheck-Plate-2021.jpg" alt="VacciCheck Plate" class="rounded-lg shadow-md w-full">
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4">1</div>
+                        <h3 class="text-lg font-bold">Collect Sample</h3>
+                    </div>
+                    <p class="text-gray-600">Draw 0.5ml of blood and separate serum or plasma. Only 3 drops needed for testing.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4">2</div>
+                        <h3 class="text-lg font-bold">Run Test</h3>
+                    </div>
+                    <p class="text-gray-600">Add samples to wells, incubate, wash, and add conjugate. Results develop in 30 minutes.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4">3</div>
+                        <h3 class="text-lg font-bold">Interpret Results</h3>
+                    </div>
+                    <p class="text-gray-600">Compare color intensity to reference card. Results indicate positive, equivocal, or negative immunity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 bg-blue-800 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">What Veterinarians Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card p-8 rounded-xl text-gray-800">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="italic mb-6">"VacciCheck has transformed how we approach vaccinations in our practice. We now have scientific evidence to support our recommendations, and clients appreciate the personalized approach."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-12 h-12 flex items-center justify-center font-bold mr-4">DR</div>
+                        <div>
+                            <p class="font-bold">Dr. Sarah Johnson</p>
+                            <p class="text-sm text-gray-600">Animal Wellness Center, TX</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card p-8 rounded-xl text-gray-800">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="italic mb-6">"The profit margin on titer testing is excellent, and it's become one of our most requested services. VacciCheck pays for itself quickly while providing better care for our patients."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-12 h-12 flex items-center justify-center font-bold mr-4">DR</div>
+                        <div>
+                            <p class="font-bold">Dr. Michael Chen</p>
+                            <p class="text-sm text-gray-600">Paws & Claws Veterinary, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ 1 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">How accurate is VacciCheck compared to lab tests?</h3>
+                        <i class="fas fa-chevron-down text-blue-600"></i>
+                    </button>
+                    <div class="faq-content mt-4 text-gray-600 hidden">
+                        <p>VacciCheck has been validated against gold standard virus neutralization tests with excellent correlation (94-98% agreement). The ELISA method provides reliable results for clinical decision-making while being more practical for in-clinic use than sending samples to external labs.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">What's the shelf life and storage requirements?</h3>
+                        <i class="fas fa-chevron-down text-blue-600"></i>
+                    </button>
+                    <div class="faq-content mt-4 text-gray-600 hidden">
+                        <p>VacciCheck kits have a shelf life of 18 months when stored at 2-8°C (refrigerated). Once opened, the plates can be used for up to 2 weeks if stored properly with desiccant. The conjugate should be used within 1 week after opening.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">How do I explain titer testing to clients?</h3>
+                        <i class="fas fa-chevron-down text-blue-600"></i>
+                    </button>
+                    <div class="faq-content mt-4 text-gray-600 hidden">
+                        <p>We provide client education materials with your order. The key points to communicate: 1) Titer tests measure existing immunity, 2) They help avoid unnecessary vaccinations, 3) They're particularly valuable for pets with vaccine reactions or immune issues, and 4) Many boarding facilities now accept titer results in place of vaccination certificates.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left">
+                        <h3 class="text-xl font-bold">What's the minimum equipment needed?</h3>
+                        <i class="fas fa-chevron-down text-blue-600"></i>
+                    </button>
+                    <div class="faq-content mt-4 text-gray-600 hidden">
+                        <p>You'll need a centrifuge for serum separation, a 37°C incubator (or heat block), a multichannel pipette (recommended but not required), and a timer. Most clinics already have this basic equipment. We provide detailed protocols and support to help you implement the testing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8 md:p-12">
+                <div class="md:flex">
+                    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                        <h2 class="text-3xl font-bold text-blue-800 mb-4">Ready to Add Titer Testing to Your Practice?</h2>
+                        <p class="text-gray-600 mb-6">Complete the form to request a demo kit, pricing information, or speak with our veterinary support team.</p>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 text-blue-800 rounded-full w-14 h-14 flex items-center justify-center text-2xl mr-4">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Call our specialists</p>
+                                <p class="text-xl font-bold">1-800-VET-TEST</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <form class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                                <input type="text" id="name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="clinic" class="block text-sm font-medium text-gray-700">Clinic Name</label>
+                                <input type="text" id="clinic" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                                <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                                <input type="tel" id="phone" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full bg-blue-600 text-white py-3 px-4 rounded-md hover:bg-blue-700 transition duration-300 font-bold">Request Information</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="https://www.biogal.com/wp-content/uploads/2021/03/Biogal-Logo-2021-White.png" alt="Biogal Logo" class="h-10 mb-4">
+                    <p class="text-gray-400">Advanced veterinary diagnostics for healthier pets and more successful practices.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">VacciCheck</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Fecal Tests</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Allergy Testing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Technical Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Research Papers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Client Education</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i> 123 Veterinary Way, Suite 100<br>Dallas, TX 75201
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i> 1-800-VET-TEST
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i> support@biogal.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Biogal Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
